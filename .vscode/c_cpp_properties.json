@@ -2,10 +2,7 @@
     "configurations": [
         {
             "name": "Win32",
-            "includePath": [
-                "${workspaceFolder}/**"
-            ],
-            "defines": [
+            "includePath": [ "${workspaceFolder}\\Plugins\**", "C:\\${workspaceFolder}\\Source\**", "${workspaceFolder}\\Intermediate\**" ],             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
