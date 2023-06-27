@@ -1,5 +1,8 @@
 #include <iostream> //cout is defined in iostream
 
+// using declaration -> using std::cout
+//lets us only use cout
+
 int main() //main function 
 {
     std::cout << "Hello there\n";
