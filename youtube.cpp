@@ -11,5 +11,10 @@ int main() //main function
     //cout -> object (like console.out) cout comes from class ostream
     //<< -> an operator (like +, -, /)
 
+    int slices; //delcaration
+    slices = 5; //initialization
+
+    //int slices = 5;
+
     return 0; //output sometimes has "EXIT_SUCCESS"
 }
