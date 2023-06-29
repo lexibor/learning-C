@@ -4,7 +4,17 @@
 //function has to be declared before it is put into use
 //can also create "header" files to declare the functions; use #include to use those header files
 
+double power(double base, int exp) //declaring and defining
+{
+    double result = 1;
 
+    for(int i = 0; i < exp; i++)
+    {
+        result = result * base;
+    }
+
+    return result;
+}
 
 int main() //main function runs code
 {
@@ -18,9 +28,12 @@ int main() //main function runs code
 
     //std::cout << pow(base, exponent) << std::endl;
 
-    double power = pow(base, exponent);
+    // double power = pow(base, exponent);
 
-    std::cout << power << std::endl;
+    double myPower = power(base, exponent);
+
+    // std::cout << power << std::endl;
+    std::cout << myPower << std::endl;
 
     //without user input
 
