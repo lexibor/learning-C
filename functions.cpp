@@ -16,9 +16,16 @@ double power(double base, int exp) //declaring and defining
     return result;
 }
 
+void print_pow(double base, int exp)
+{
+    double myPower = power(base, exp);
+    std::cout << base << " raised to the " << exp << " power is " << myPower << std::endl;
+}
+
 int main() //main function runs code
 {
-    int base, exponent;
+    double base;
+    int exponent;
 
     std::cout << "What is the base?: ";
     std::cin >> base;
@@ -30,10 +37,12 @@ int main() //main function runs code
 
     // double power = pow(base, exponent);
 
-    double myPower = power(base, exponent);
+    //double myPower = power(base, exponent); MOVED THIS TO VOID FUNCTION
 
     // std::cout << power << std::endl;
-    std::cout << myPower << std::endl;
+    //std::cout << myPower << std::endl; MOVED AND CHANGED IN VOID FUNCTION
+
+    print_pow(base, exponent);
 
     //without user input
 
