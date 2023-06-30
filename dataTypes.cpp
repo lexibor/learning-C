@@ -36,7 +36,8 @@ int main()
    // std::cout << USHRT_MAX << std::endl;  // adding a 'U' at the beginning shows the unsigned amount
 
     // CHAR
-    char x = 65; // chars always use single quotes
+    char x = 65; // chars always use single quotes; max char value is 127 signed
+    unsigned char y = 129
 
     std::cout << x << std::endl;
     std::cout << (int)x << std::endl; // casting to an integer tells you the num equivalent of a char based on ASCII
