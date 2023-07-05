@@ -37,11 +37,22 @@ int main()
 
     // CHAR
     char x = 65; // chars always use single quotes; max char value is 127 signed
-    unsigned char y = 129
+    unsigned char y = 129;
 
     std::cout << x << std::endl;
     std::cout << (int)x << std::endl; // casting to an integer tells you the num equivalent of a char based on ASCII
 
+    // BOOL
+    bool pizza_is_good = -1; 
 
-    return 0;
+    /*  booleans have a numeric value,
+        0 is equal to "false"
+        any other number is considered "true" 
+        but when cout-ing a boolean value with another number
+        it will always show up as "1"
+    */
+
+   std::cout << pizza_is_good << std::endl;
+
+
 }
