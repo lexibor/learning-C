@@ -69,9 +69,9 @@ int main()
    /*
         float has the least number of significant digits - least "trustworthy"
    */
-  std::cout << FLT_DIG << std::endl; // 6 digits
-  std::cout << DBL_DIG << std::endl; // 15 digits
-  std::cout << LDBL_DIG << std::endl; // 18 digits
+    std::cout << FLT_DIG << std::endl; // 6 digits
+    std::cout << DBL_DIG << std::endl; // 15 digits
+    std::cout << LDBL_DIG << std::endl; // 18 digits
 
     // CONSTANTS
 
@@ -79,6 +79,7 @@ int main()
 
     enum {i = 100, j = 200}; // multiple constants in one
 
+    // STRINGS
 
 
 
