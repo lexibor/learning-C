@@ -22,6 +22,8 @@
 #include <climits>
 #include <float.h>
 
+#define X 10 // defining a constant value AKA macros
+
 int main()
 {
     // INTEGRAL
@@ -70,6 +72,14 @@ int main()
   std::cout << FLT_DIG << std::endl; // 6 digits
   std::cout << DBL_DIG << std::endl; // 15 digits
   std::cout << LDBL_DIG << std::endl; // 18 digits
+
+    // CONSTANTS
+
+    const int h = 5; // symbolic constant, int is a literal constant
+
+    enum {i = 100, j = 200}; // multiple constants in one
+
+
 
 
 
