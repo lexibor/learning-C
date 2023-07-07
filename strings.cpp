@@ -46,4 +46,18 @@ int main()
     std::cout << greeting << std::endl;
 
     // searching a string for a particular word
+
+    std::string badWords = "What the heck";
+
+    badWords.replace(badWords.find("heck"), 4, "****");
+    std::cout << badWords << std::endl;
+
+    // substring
+    greeting = "What is up";
+    std::cout << greeting.substr(5, 2) << std::endl; // start index, number of characters
+
+    std::cout << greeting.find_first_of("aeiou") << std::endl;
+    //npos == -1 == NOT FOUND
+
+    if(greeting.compare("What is up") == 0) std::cout << "Equals" << std::endl; // can just compare strings using "=="
 }
