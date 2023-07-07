@@ -21,6 +21,7 @@
 #include <iostream>
 #include <climits>
 #include <float.h>
+#include <string>
 
 #define X 10 // defining a constant value AKA macros
 
@@ -81,7 +82,20 @@ int main()
 
     // STRINGS
 
+    // std::string greeting = "hello";
+    // std::cout << greeting + " there!" << std::endl;
 
+    std::string greeting;
+    // std::cin >> greeting;
+    // std::cout << greeting << std::endl; // cin only grabs the first word before a space
+
+    // string class functions
+
+    std::cout << greeting.length() << std::endl;
+
+    char name[] = "Alexia"; // C style string == array of characters
+
+    // USER INPUT STRINGS
 
 
 
