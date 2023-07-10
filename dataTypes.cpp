@@ -83,47 +83,19 @@ int main()
     // STRINGS
 
      std::string greeting = "hello";
-    // std::cout << greeting + " there!" << std::endl;
 
-    //std::string greeting;
-    // std::cin >> greeting;
-    // std::cout << greeting << std::endl; // cin only grabs the first word before white space
+     // LITERALS
 
-    // string class functions
-
-    //std::cout << greeting.length() << std::endl;
-
-    char name[] = "Alexia"; // C style string == array of characters
-
-    // USER INPUT STRINGS
-
-    //std::cin >> greeting;
-    // getline(std::cin, greeting); // for user input strings
-    // cin.getline(); // for user input numeric values
-    // std::cout << greeting << std::endl;
-
-    // string methods /////
-
-    std::cout << greeting.length() << std::endl;
-    std::cout << greeting.size() << std::endl; 
-    // they both do the same thing
-
-    std::cout << greeting.append(" there!") << std::endl; // interchangeable with greeting += ....
-    
-
-    greeting.insert(3, "   "); // the count does not start at 0 for this method
-    std::cout << greeting << std::endl; 
-
-    greeting.erase(3, 3); // position in string, num of characters after position (can leave second argument empty)
-    std::cout << greeting << std::endl;
-
-    greeting.pop_back();
-    std::cout << greeting << std::endl; // removing the last character in a string 
-
-    greeting.replace(0, 4, "hewoo"); // start index, end index, what is replacing it
-    std::cout << greeting << std::endl;
-
-
+     auto k = 5U; // unsigned integer 
+     /* 
+        5UL unsigned long
+        5L long
+        5LL long long
+        5.0F float
+     */
+     // auto recognizes a type but cannot change that variable's type
+     
+     std::cout << k << std::endl;
 
 
 }
