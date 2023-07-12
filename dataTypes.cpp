@@ -92,10 +92,10 @@ int main()
         5L long
         5LL long long
         5.0F float
+
+
+        auto data type recognizes a type but cannot change that variable's type
      */
-     // auto recognizes a type but cannot change that variable's type
      
      std::cout << k << std::endl;
-
-
 }
