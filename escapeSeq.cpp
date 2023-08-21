@@ -18,7 +18,7 @@ int main()
 
     char single_quote = '\'';
 
-    // \\ two backslashes for one
+    // \\ two backslashes for one backslash
 
     std::cout << "\\ two backslashes \n";
 }
